@@ -6,8 +6,10 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "doctrine/dbal": "^2.5",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "santigarcor/laratrust": "5.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -48,14 +50,4 @@
         "sort-packages": true,
         "optimize-autoloader": true
     }
-    ,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org"
-        },
-        {
-            "packagist": false
-        }
-    ]
 }
